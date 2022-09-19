@@ -1,0 +1,48 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  width: 23%;
+  box-shadow: 0 0 4px 3px black;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  /* opacity: 0.5; */
+}
+.card:hover {
+  transition: 0.75s;
+  opacity: 1;
+}
+.id {
+  font-size: 20px;
+  font-weight: bold;
+}
+.o {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 16px;
+  font-weight: bold;
+}
+.w {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 16px;
+  font-weight: bold;
+}
+img {
+  text-align: center;
+}
